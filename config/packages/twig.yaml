@@ -1,0 +1,8 @@
+twig:
+    file_name_pattern: '*.twig'
+    globals: 
+        developer: Pedro Duarte Full Stack Developer
+
+when@test:
+    twig:
+        strict_variables: true

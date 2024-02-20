@@ -1,0 +1,28 @@
+{% extends 'pedro.html.twig' %}
+
+{% block title %} {{developer}} {% endblock %}
+
+
+{% block body %}
+{% if title %}
+{{title}}
+{% else %}
+<div>No title</div>
+{% endif %}
+ {% endblock %}
+
+
+ 
+
+ {% block movies %}
+<h1>
+Lets see all movies
+
+{% for movie in movies %}
+<div>
+{{ movie}}
+</div>
+{% endfor %}
+</h1>
+
+{% endblock %}
